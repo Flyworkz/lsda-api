@@ -7,7 +7,7 @@ const db = async (route) => {
             Authorization: `Bearer ${apiKey}`
         }
     });
-    return await response.json();
+    return (await response.json()).docs;
 }
 
 module.exports = db;

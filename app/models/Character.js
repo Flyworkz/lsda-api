@@ -9,12 +9,12 @@ class Character {
     }
 
     static async findAll() {
-        const characters = (await db('/character')).docs;
+        const characters = await db('/character');
         return characters;
     }
 
     static async findByName(name) {
-        const characters = (await db('/character')).docs;        
+        const characters = await db('/character');        
         const character = characters.find(c => c.name === name);
         return character;
     }
