@@ -5,4 +5,6 @@ const router = Router();
 
 router.get('/character', characterController.findAll);
 
+router.get('/character/:name', characterController.findByName);
+
 module.exports = router;
