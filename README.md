@@ -23,4 +23,6 @@ npm run dev
 
 ## Les différentes routes utilisables
 
+/!\ Lien actif uniquement si le serveur est lancé /!\
+
 http://localhost:8080/api-docs#/
