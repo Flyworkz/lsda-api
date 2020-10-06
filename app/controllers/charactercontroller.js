@@ -1,4 +1,3 @@
-const { findByName } = require('../models/Character');
 const Character = require('../models/Character');
 
 const characterController = {
